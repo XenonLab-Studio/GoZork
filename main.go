@@ -28,6 +28,13 @@
  *          |
  */
 
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
 var verbAliasMap = map[string][]string{
 	"GO NORTH":   {"N", "NORTH"},
 	"GO SOUTH":   {"S", "SOUTH"},
