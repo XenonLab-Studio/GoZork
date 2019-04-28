@@ -34,13 +34,17 @@ ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 $ go get github.com/XenonLab-Studio/The-Great-Adventure
 ```
 
-Open a terminal, and navigate to your $GOPATH directory.
+<br>
 
 **Example $GOPATH for Linux:**
+
+Open a terminal, and navigate to your $GOPATH directory.
 
 ```bash
 /home/user/go/src/github.com
 ```
+
+<br>
 
 **Run project**
 
@@ -49,6 +53,8 @@ $ cd The-Great-Adventure
 $ go run *.go
 $ ./tga # to start the game!
 ```
+
+<br>
 
 **Build project**
 
