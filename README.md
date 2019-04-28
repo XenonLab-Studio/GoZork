@@ -33,7 +33,7 @@ ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 ### Linux, MacOS, Windows
 
 ```bash
-go get github.com/XenonLab-Studio/The-Great-Adventure
+$ go get github.com/XenonLab-Studio/The-Great-Adventure
 ```
 
 **Build**
@@ -49,15 +49,15 @@ example:
 Run game:
 
 ```bash
-cd The-Great-Adventure
-go run *.go
-./tga # to start the game!
+$ cd The-Great-Adventure
+$ go run *.go
+$ ./tga # to start the game!
 ```
 
 Build game:
 
 ```bash
-go build 
+$ go build 
 ```
 
 <br>
