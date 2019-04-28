@@ -28,8 +28,6 @@ ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 <br>
 
-## RUN & BUILD
-
 ### Linux, MacOS, Windows
 
 ```bash
@@ -38,13 +36,13 @@ $ go get github.com/XenonLab-Studio/The-Great-Adventure
 
 Open a terminal, and navigate to your $GOPATH directory.
 
-**example**
+**Example $GOPATH for Linux:**
 
 ```bash
 /home/user/go/src/github.com
 ```
 
-**Run**
+**Run project**
 
 ```bash
 $ cd The-Great-Adventure
@@ -52,7 +50,7 @@ $ go run *.go
 $ ./tga # to start the game!
 ```
 
-**Build**
+**Build project**
 
 ```bash
 $ go build 
