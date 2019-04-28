@@ -34,9 +34,6 @@
     (o o)      #  (o o)         (o o)      #  (o o)      -  (OXO)  -     /(o o)\
 ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
 
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 </pre>
 
 *Textual adventure written in golang inspired by "Zork - The Great Underground Empire"*.
