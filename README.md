@@ -42,7 +42,7 @@ ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--
 ### Linux, MacOS, Windows
 
 ```bash
-$ go get github.com/XenonLab-Studio/The-Great-Adventure
+$ go get github.com/XenonLab-Studio/GoZork
 ```
 
 <br>
@@ -60,9 +60,9 @@ Open a terminal, and navigate to your $GOPATH directory.
 **Run project**
 
 ```bash
-$ cd The-Great-Adventure
+$ cd GoZork
 $ go run *.go
-$ ./tga # to start the game!
+$ ./GoZork # to start the game!
 ```
 
 <br>
