@@ -27,6 +27,7 @@
         . ######:::. #######:: ########:. #######:: ##:::. ##: ##::. ##:
         :......:::::.......:::........:::.......:::..:::::..::..::::..::
 
+            Textual adventure written in golang inspired by "Zork I"
 
                #   ___           (         #   ___           !!!           ___
     -*~*-      #  <_*_>          _)_       #  <_*_>       `  _ _  '       /\#/\
@@ -34,8 +35,6 @@
 ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
 
 </pre>
-
-*Textual adventure written in golang inspired by "Zork I"*.
 
 <br>
 
