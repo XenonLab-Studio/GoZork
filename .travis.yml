@@ -1,0 +1,7 @@
+language: go
+
+go_import_path: github.com/XenonLab-Studio/GoZork
+
+go:
+    - 1.12.4
+    - tip
