@@ -5,7 +5,7 @@
  *
  * Released under the GNU/GPL 3.0 license
  *
- * github: <https://github.com/XenonLab-Studio/The-Great-Adventure>
+ * github: <https://github.com/XenonLab-Studio/GoZork>
  *
  *
  *
