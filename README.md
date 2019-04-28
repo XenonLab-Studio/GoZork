@@ -61,7 +61,7 @@ Open a terminal, and navigate to your $GOPATH directory.
 
 ```bash
 $ cd GoZork
-$ go run *.go
+$ go run main.go
 $ ./GoZork # to start the game!
 ```
 
@@ -70,7 +70,7 @@ $ ./GoZork # to start the game!
 **Build project**
 
 ```bash
-$ go build 
+$ go build main.go
 ```
 
 <br>
