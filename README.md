@@ -1,5 +1,3 @@
-# The Great Adventure
-###### Textual adventure written in golang inspired by "Zork - The Great Underground Empire".
 
 <pre>
 
@@ -25,6 +23,10 @@ ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
            || |(/_ \_||(/_(_| |_ /--\(_|\/(/_| ||_|_||(/_ 
 
 </pre>
+
+###### Textual adventure written in golang inspired by "Zork - The Great Underground Empire".
+
+<br>
 
 ## RUN & BUILD
 
