@@ -70,7 +70,8 @@ $ ./GoZork # to start the game!
 **Build project**
 
 ```bash
-$ go build main.go
+$ go build
+$ ./GoZork # to start the game!
 ```
 
 <br>
