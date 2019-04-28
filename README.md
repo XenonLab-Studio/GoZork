@@ -62,7 +62,6 @@ Open a terminal, and navigate to your $GOPATH directory.
 ```bash
 $ cd GoZork
 $ go run main.go
-$ ./GoZork # to start the game!
 ```
 
 <br>
