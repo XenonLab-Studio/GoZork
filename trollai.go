@@ -22,6 +22,10 @@
 
 package main
 
+import (
+	"math/rand"
+)
+
 // how many turns before the troll will kill the player
 const trollDifficulty = 5
 
