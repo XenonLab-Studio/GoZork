@@ -25,5 +25,5 @@ before_script:
   - go get github.com/XenonLab-Studio/GoZork
 
 script:
-  - env GO111MODULE=off go build
+  - env GO111MODULE=on go build
   - env GO111MODULE=on go test
