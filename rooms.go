@@ -173,10 +173,10 @@ func NewGameWorld() (*Room, *Room) {
 	                            |                |
 	                            +----------------+*/
 	// rooms:
-	nhouse := Room{name: "North of House", desc: "The path leads around the house to the east."}
-	whouse := Room{name: "West of House", desc: "You are standing in an open field west of a white house with a boarded front door. Pathways lead north and south around the house."}
-	shouse := Room{name: "South of House", desc: "The pathway extends to the east behind the white house."}
-	bhouse := Room{name: "Behind House", desc: "To your west is a white house with a small window. Pathways lead north and south around the house.",
+	nhouse := Room{name: "\nNorth of House", desc: "\nThe path leads around the house to the east."}
+	whouse := Room{name: "\nWest of House", desc: "\nYou are standing in an open field west of a white house with a boarded front door. Pathways lead north and south around the house."}
+	shouse := Room{name: "\nSouth of House", desc: "\nThe pathway extends to the east behind the white house."}
+	bhouse := Room{name: "\nBehind House", desc: "\nTo your west is a white house with a small window. Pathways lead north and south around the house.",
 		exitFunc: func(dir string) bool {
 			if dir == "WEST" || dir == "IN" {
 				return window.open

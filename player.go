@@ -196,17 +196,17 @@ func (p *Player) Wait() bool {
 }
 
 func (p *Player) Help(args []string) bool {
-	p.Println("This is a text adventure game, the goal is to find and kill the troll.")
-	p.Println("The game only understands very simple single-verb, single-object sentences, for instance: PICK UP HAT, or OPEN DOOR etc.")
-	p.Println("The Verbs this game understands are: LOOK, LOOK AT, LOOK UNDER, PUSH, PULL, TAKE, DROP, WAIT, OPEN, CLOSE and INVENTORY.")
-	p.Println("Directions are: NORTH, SOUTH, EAST, WEST, UP, DOWN, IN and OUT.")
-	p.Println("There are also many aliases for verbs and directions.")
+	p.Println("\nThis is a text adventure game, the goal is to find and kill the troll.")
+	p.Println("\nThe game only understands very simple single-verb, single-object sentences, for instance: PICK UP HAT, or OPEN DOOR etc.")
+	p.Println("\nThe Verbs this game understands are: LOOK, LOOK AT, LOOK UNDER, PUSH, PULL, TAKE, DROP, WAIT, OPEN, CLOSE and INVENTORY.")
+	p.Println("\nDirections are: NORTH, SOUTH, EAST, WEST, UP, DOWN, IN and OUT.")
+	p.Println("\nThere are also many aliases for verbs and directions.")
 	return true
 }
 
 func (p *Player) GivePoints(off byte) {
 	p.points += off
-	p.Printf("(Your score increased by %d points, you now have %d/%d points.)\n", off, p.points, p.maxPoints)
+	p.Printf("(\nYour score increased by %d points, you now have %d/%d points.)\n", off, p.points, p.maxPoints)
 }
 
 func (p *Player) Die() {
@@ -322,7 +322,7 @@ func (p *Player) Run() {
 		//fmt.Printf("[command read as: %v]\n", cmd)
 
 		if cmd == "QUIT" {
-			p.Println("Thanks for playing!")
+			p.Println("\nThanks for playing!")
 			break
 		}
 
