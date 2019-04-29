@@ -13,3 +13,7 @@ os:
   - linux
   - osx
   - windows
+
+script:
+  - go run *.go  # Start all the project files
+  - go build # Build project
