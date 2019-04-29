@@ -39,7 +39,7 @@ ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--
 
 <br>
 
-### Linux, MacOS, Windows
+### INSTRUCTIONS
 
 ```bash
 $ go get github.com/XenonLab-Studio/GoZork
