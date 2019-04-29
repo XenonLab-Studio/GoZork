@@ -22,6 +22,12 @@
 
 package main
 
+import (
+	"errors"
+	"fmt"
+	"strings"
+)
+
 type Object struct {
 	name       string
 	desc       string
