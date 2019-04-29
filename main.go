@@ -25,6 +25,12 @@ package main
 import (
 	"bufio"
 	"os"
+
+	"github.com/XenonLab-Studio/GoZork/clearscr"
+	"github.com/XenonLab-Studio/GoZork/objects"
+	"github.com/XenonLab-Studio/GoZork/player"
+	"github.com/XenonLab-Studio/GoZork/rooms"
+	"github.com/XenonLab-Studio/GoZork/trollai"
 )
 
 // sort by string length:
